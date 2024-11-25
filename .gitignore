@@ -1,0 +1,85 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Arquivos de log
+*.log
+
+# Diretorias de build
+build/
+dist/
+eggs/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Diretórios de instalação do setup.py
+develop-eggs/
+.eggs/
+
+# Arquivos de instalação do pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Diretórios de testes
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+.pytest_cache/
+.pyre/
+
+# Ambiente virtual
+venv/
+ENV/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Configurações de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# Arquivos de banco de dados local
+*.sqlite3
+*.db
+
+# Arquivos do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Arquivos gerados pelo PyInstaller
+#  Os arquivos criados pelo PyInstaller contêm o nome do programa
+#  Dessa forma, é recomendável adicionar aqui o nome do seu programa!
+# Exemplo:
+# HarvestLink.spec
+# /build/
+# /dist/
+*.spec
+
+# Outros
+__pypackages__/

@@ -1,0 +1,21 @@
+# .pylintrc
+
+[MASTER]
+ignore=tests
+persistent=yes
+
+[MESSAGES CONTROL]
+disable=
+    C0114,  # Missing module docstring
+    C0115,  # Missing class docstring
+    C0116,  # Missing function or method docstring
+    R0903,  # Too few public methods
+    R0902,  # Too many instance attributes
+
+[FORMAT]
+max-line-length=88
+
+[DESIGN]
+max-args=5
+max-attributes=10
+max-locals=15

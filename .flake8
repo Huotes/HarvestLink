@@ -1,0 +1,16 @@
+# .flake8
+
+[flake8]
+max-line-length = 88
+exclude =
+    .git,
+    __pycache__,
+    venv,
+    env,
+    .venv,
+    build,
+    dist,
+    migrations
+ignore =
+    E203,  # Espaço em fatiamento de lista
+    W503   # Operadores antes da quebra de linha

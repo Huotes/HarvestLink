@@ -1,0 +1,39 @@
+# Frameworks e Ferramentas
+fastapi==0.95.2            # Framework web para criação de APIs
+uvicorn==0.22.0            # Servidor ASGI para rodar o FastAPI
+pydantic==1.10.7           # Validação de dados e gerenciamento de configurações
+
+# Banco de Dados e ORM
+sqlalchemy==1.4.46         # ORM para interagir com bancos de dados SQL
+alembic==1.10.4            # Migrações de banco de dados
+psycopg2-binary==2.9.6     # Adaptador para PostgreSQL
+
+# Cache e Mensageria
+redis==4.5.1               # Cliente Redis para cache e filas de mensagens
+kafka-python==2.0.2        # Cliente Apache Kafka para streaming de dados
+
+# Machine Learning e Análise de Dados
+scikit-learn==1.2.2        # Algoritmos de aprendizado de máquina
+numpy==1.24.2              # Computação numérica
+pandas==1.5.3              # Análise e manipulação de dados
+
+# Monitoramento e Logs
+prometheus-client==0.16.0  # Expor métricas para o Prometheus
+elasticsearch==8.6.2       # Cliente Elasticsearch para logs e busca
+
+# Segurança
+python-jose[cryptography]==3.3.0  # Implementação de JWT para autenticação
+passlib[bcrypt]==1.7.4            # Hashing de senhas
+
+# Utilitários
+requests==2.28.2           # Requisições HTTP
+python-dotenv==1.0.0       # Carregar variáveis de ambiente a partir de um arquivo .env
+
+# Testes
+pytest==7.2.2              # Framework de testes
+pytest-cov==4.0.0          # Cobertura de testes
+
+# Ferramentas de Desenvolvimento
+black==23.1.0              # Formatação de código
+flake8==6.0.0              # Análise de código estática
+isort==5.12.0              # Ordenação de imports
