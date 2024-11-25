@@ -4,7 +4,7 @@
 
 ---
 
-![HarvestLink Logo](https://your-logo-url.com/logo.png)
+![HarvestLink Logo](logo/harvestlink_logo.png)
 
 ---
 
